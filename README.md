@@ -2,6 +2,8 @@
 
 [![textlint rule](https://img.shields.io/badge/textlint-fixable-blue.svg)](https://textlint.github.io/)  [![Build Status](https://travis-ci.org/uetchy/textlint-rule-bittermelon.svg)](https://travis-ci.org/uetchy/textlint-rule-bittermelon)
 
+ゴーヤじゃなくてゴーヤー。
+
 This rule module for [azu/textlint](https://github.com/textlint/textlint "azu/textlint").
 
 ## Usage
