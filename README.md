@@ -1,10 +1,10 @@
 # textlint-rule-bittermelon
 
-[![textlint rule](https://img.shields.io/badge/textlint-fixable-blue.svg)](https://textlint.github.io/)  [![Build Status](https://travis-ci.org/uetchy/textlint-rule-bittermelon.svg)](https://travis-ci.org/uetchy/textlint-rule-bittermelon)
+[![textlint rule](https://img.shields.io/badge/textlint-fixable-blue.svg)](https://textlint.github.io/) [![Build Status](https://travis-ci.org/uetchy/textlint-rule-bittermelon.svg)](https://travis-ci.org/uetchy/textlint-rule-bittermelon)
 
 ゴーヤじゃなくてゴーヤー。
 
-This rule module for [azu/textlint](https://github.com/textlint/textlint "azu/textlint").
+This rule module for [azu/textlint](https://github.com/textlint/textlint 'azu/textlint').
 
 ## Usage
 
@@ -23,7 +23,7 @@ path/to/file.md
 
 ## FAQ
 
-Q. 一部離島では __ゴーヤ__ でも正しいんですが？
+Q. 一部離島では **ゴーヤ** でも正しいんですが？
 
 A. `textlint-rule-bittermelon`は沖縄本島の慣習に則っています。
 
