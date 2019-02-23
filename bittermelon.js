@@ -43,7 +43,7 @@ function reporter(context) {
       }
       const text = context.getSource(node)
       const results = checker(text)
-      results.forEach(result => {
+      results.forEach((result) => {
         const { paddingIndex, actual, expected } = result
 
         context.report(

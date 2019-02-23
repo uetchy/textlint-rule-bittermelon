@@ -15,7 +15,7 @@ describe('bittermelon.js', () => {
 
   it('should lint wrong gōyā', () => {
     const filePath = join(__dirname, '/fixtures/wrong.md')
-    return textlint.lintFile(filePath).then(result => {
+    return textlint.lintFile(filePath).then((result) => {
       assert.ok(result.filePath === filePath)
       assert.ok(result.messages.length > 0)
       const message = result.messages[0].message
@@ -26,7 +26,7 @@ describe('bittermelon.js', () => {
   context('expect Link, Image and block', () => {
     it('should not lint wrong tech words', () => {
       const filePath = join(__dirname, '/fixtures/no-error.md')
-      return textlint.lintFile(filePath).then(result => {
+      return textlint.lintFile(filePath).then((result) => {
         assert.ok(result.filePath === filePath)
         assert.ok(result.messages.length === 0)
       })
