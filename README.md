@@ -1,6 +1,6 @@
 # textlint-rule-bittermelon
 
-[![textlint rule](https://img.shields.io/badge/textlint-fixable-blue.svg)](https://textlint.github.io/) [![Build Status](https://travis-ci.org/uetchy/textlint-rule-bittermelon.svg)](https://travis-ci.org/uetchy/textlint-rule-bittermelon)
+[![textlint rule](https://img.shields.io/badge/textlint-fixable-blue.svg)](https://textlint.github.io/) [![Build Status](https://travis-ci.com/uetchy/textlint-rule-bittermelon.svg)](https://travis-ci.com/uetchy/textlint-rule-bittermelon)
 
 ゴーヤじゃなくてゴーヤー。
 
