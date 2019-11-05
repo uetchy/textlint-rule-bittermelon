@@ -1,7 +1,7 @@
-const TextLintTester = require('textlint-tester')
+const TextLintTester = require('textlint-tester');
 
-const tester = new TextLintTester()
-const rule = require('..')
+const tester = new TextLintTester();
+const rule = require('..');
 
 tester.run('bittermelon', rule, {
   valid: ['ゴーヤー', '_ゴーヤ_'],
@@ -29,4 +29,4 @@ tester.run('bittermelon', rule, {
       ],
     },
   ],
-})
+});
