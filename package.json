@@ -2,8 +2,6 @@
   "name": "textlint-rule-bittermelon",
   "description": "textlint rule: spell check gōyā.",
   "version": "1.0.1",
-  "author": "Yasuaki Uechi <y@uechi.io>",
-  "main": "./bittermelon.js",
   "scripts": {
     "test": "mocha"
   },
@@ -16,6 +14,9 @@
     "textlint": "^11.5.0",
     "textlint-tester": "^5.1.11"
   },
+  "author": "Yasuaki Uechi <y@uechi.io>",
+  "license": "MIT",
+  "main": "./bittermelon.js",
   "bugs": {
     "url": "https://github.com/uetchy/textlint-rule-bittermelon/issues"
   },
@@ -28,7 +29,6 @@
     "japanese",
     "textlint"
   ],
-  "license": "MIT",
   "peerDependencies": {
     "textlint": ">= 5.6.0"
   },
